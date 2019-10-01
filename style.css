@@ -6,8 +6,8 @@ body
 {
 	display:flex;
 	flex-direction:row;
-	justify-content: center;
-	align-items: center;
+	justify-content: center;	
+	
 }
 .header
 {
@@ -48,7 +48,12 @@ body
 
 .personalContact
 {
+	
 	max-width:33%;
+}
+
+.personal{
+	align-items:center;
 }
 
 .profilePic
@@ -61,22 +66,25 @@ body
 .study
 {
 	transform:translateY(-20%);
+	justify-content:space-between;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 
 .education
 {
-	width:33%;
+	width:250px;
 }
 
 .skills
 {
-	width:33%;
+	width:250px;
 }
 
 .expertise
 {
-	width:33%;
+	width:250px;
 }
 
 .WhiteBox
@@ -128,4 +136,10 @@ border-bottom: 4px solid #abb8b8;
 	text-align:center;
 	padding:1%;
 	background-color:#E6BE8A;
+}
+
+.contact
+{
+	display:flex;
+	justify-content: space-between;
 }
