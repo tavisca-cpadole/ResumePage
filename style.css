@@ -2,6 +2,13 @@ body
 {
 	margin: 1% 1% auto;
 }
+.flexClass
+{
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	align-items: center;
+}
 .header
 {
 	width: 100%;
@@ -27,11 +34,6 @@ body
     padding-bottom:1%;
 }
 
-.profile
-{
-	display:flex;
-	flex-direction:row;
-}
 
 .personalInfo
 {
@@ -58,8 +60,6 @@ body
 
 .study
 {
-	display:flex;
-	flex-direction:row;
 	transform:translateY(-20%);
 }
 
@@ -79,13 +79,19 @@ body
 	width:33%;
 }
 
-.Box
+.WhiteBox
 {
 	border-style:solid;
 	border-width: 1px;
-	max-width:60%;
 	text-align:center;
-	margin:0 auto;
+	padding:1%;
+	background-color:white;
+}
+
+.BrownBox
+{
+	text-align:center;
+	padding:1%;
 	background-color:white;
 }
 
@@ -95,14 +101,14 @@ hr {
 
 .interior
 {
-	display:flex;
 	justify-content: space-between;
+	padding-top:1%;
 }
 
 .exterior
 {
-	display:flex;
 	justify-content: space-between;
+	padding-top:1%;
 }
 
 .rightAddress
@@ -110,4 +116,16 @@ hr {
 	padding:1%;
 	background-color:#E6BE8A;
 	border: 1px solid;
+}
+
+.line{
+width:100%;
+border-bottom: 4px solid #abb8b8;
+}
+
+.experienceBox
+{
+	text-align:center;
+	padding:1%;
+	background-color:#E6BE8A;
 }
