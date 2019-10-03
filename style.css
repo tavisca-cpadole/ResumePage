@@ -1,0 +1,150 @@
+body
+{
+	margin:0%;
+}
+.flexClass
+{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-evenly;	
+	align-items:center;
+}
+.header
+{ 	 
+	width: 100%;
+	height:25%;
+	background-color:#abb8b8;
+	min-height:10%;
+	padding-bottom:3%;
+	padding-top:3%;
+}
+.headerCardBorder
+{
+	margin: 0 auto;
+	max-width:20%;
+	border-style: solid;
+	border-color: white;
+	border-width:thick;
+}
+.headerCard
+{
+	border-style: solid;
+	text-align:center;
+	background-color:white;
+    padding-bottom:1%;
+}
+
+
+.personalInfo
+{
+	max-width:33%;
+}
+
+.personalImage
+{
+	margin:2% auto;
+	max-width:33%;
+}
+
+.personalContact
+{
+	
+	max-width:33%;
+}
+
+.personal{
+	align-items:center;
+}
+
+.profilePic
+{
+	width:50%;
+	height:50%;
+}
+
+
+.study
+{
+	transform:translateY(-20%);
+	justify-content:space-between;
+	display: flex;
+	flex-wrap: wrap;
+	align-items:center;
+}
+
+
+.education
+{
+	width:250px;
+}
+
+.skills
+{
+	width:250px;
+}
+
+.expertise
+{
+	width:250px;
+}
+
+.WhiteBox
+{
+	border-style:solid;
+	border-width: 1px;
+	text-align:center;
+	padding:1%;
+	background-color:white;
+}
+
+.BrownBox
+{
+	text-align:center;
+	padding:1%;
+	background-color:white;
+}
+
+hr {
+  border: 2px solid #abb8b8;
+}
+
+.interior
+{
+	justify-content: space-between;
+	padding-top:1%;
+}
+
+.exterior
+{
+	justify-content: space-between;
+	padding-top:1%;
+}
+
+.rightAddress
+{
+	padding:1%;
+	background-color:#E6BE8A;
+	border: 1px solid;
+}
+.experience-bar
+{
+	align-items:center;
+}
+
+.line{
+width:100%;
+border-bottom: 4px solid #abb8b8;
+}
+
+.experienceBox
+{
+	text-align:center;
+	padding:1%;
+	background-color:#E6BE8A;
+}
+
+.contact
+{
+	display:flex;
+	justify-content: space-between;
+}
